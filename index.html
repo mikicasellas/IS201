@@ -1,4 +1,4 @@
-<!-- Mikael Casellas Edited: 4/9/22--> 
+<!-- Mikael Casellas Edited: 4/11/22--> 
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,25 +17,29 @@
         <link href="styles/mystyles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
+        <!-- Navigation-->  
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5"> 
+            <div class="container px-4 px-lg-5">    
+                <a class="navbar-brand hovernone"> Some Music I Like</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#content">To Content</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#bottom">To Bottom</a></li>
+                        <h1> |</h1>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/tableau.html">Tableau</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/about.html#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('images/home-bg.jpg')">
+        <header class="masthead" style="background-image: url('images/home-bg.jpg')" alt="Home Background Image">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -51,64 +55,65 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
+                    <hr class="my-4" />
                     <!-- Post preview-->
-                    <div class ="iframe-container">
+                    <!--Youtube embed only works on the livesite-->
+                    <div class ="iframe-container" id="content">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/lC5JFufOtVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                        <a href="https://open.spotify.com/playlist/51GeRPwxcU7l5aTnEaF4qr?si=68a31ec14fe34dd2" target="_blank">
+                            <h2 class="post-title">Chill Hits of the Week</h2>
+                            <h3 class="post-subtitle">
+                                <li>How Long Have you Been Away? - Kryptogram</li>
+                                <li>Expressing What Matters - Disclosure</li>
+                                <li>I Believe In You - Club Vocal Mix - Full Intention</li>
+                            </h3>
                         </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2022
+                            Located on my
+                            D.A.N.C.E playlist:
+                            updated 4/11/22
                         </p>
                     </div>
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- Post preview-->
+                    <img src="images/madeon.jpg" alt="My favorite artist: Madeon" width="694" height="400" >
                     <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
+                        <a href="https://open.spotify.com/playlist/4XtGuII2OfIxFJGOz2tEOx?si=5f006966c7a34267" target="_blank">
+                            <h2 class="post-title">EDM Hits of the Week</h2>
+                            <h3 class="post-subtitle">
+                                <li>One More Time / Aerodynamic - Daft Punk</li>
+                                <li>Don't You Worry Child - Swedish House Mafia</li>
+                                <li>Genesis - Justice</li>
+                            </h3>
+                        </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2022
+                            Located on my
+                            Best of playlist:
+                            updated 4/11/22
                         </p>
                     </div>
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- Post preview-->
+                    <img src="images/dj.jpg" alt="Picture of DJ equipment" width="694" height="500" >
                     <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
+                        <a href="https://open.spotify.com/playlist/4XtGuII2OfIxFJGOz2tEOx?si=5f006966c7a34267" target="_blank">
+                            <h2 class="post-title">HipHop Hits of the Week</h2>
+                            <h3 class="post-subtitle">
+                                <li>New Again - Kanye West</li>
+                                <li>Trillmatic - A$AP Mob</li>
+                                <li>No Idea - Don Toliver</li>
+                            </h3>
                         </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2022
+                            Located on my
+                            Best of playlist:
+                            updated 4/11/22
                         </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2022
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                    </div>                   
                 </div>
             </div>
         </div>
@@ -119,31 +124,16 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
+                                <a href="https://open.spotify.com/playlist/4XtGuII2OfIxFJGOz2tEOx?si=5f006966c7a34267" target="_blank">
+                                    Best of Playlist Link
                                 </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
+                                <br>
+                                <a href="https://open.spotify.com/playlist/51GeRPwxcU7l5aTnEaF4qr?si=68a31ec14fe34dd2" target="_blank">
+                                    D.A.N.C.E Playlist Link
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Mikael Casellas 2022</div>
+                        <div class="small text-center text-muted fst-italic" id="bottom">Copyright &copy; Mikael Casellas 2022</div>
                     </div>
                 </div>
             </div>
